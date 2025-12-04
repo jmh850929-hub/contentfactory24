@@ -1,0 +1,20 @@
+{
+  "version": "3.1",
+  "generated_at": "2025-11-30 20:06:25",
+  "summary": {
+    "command_count": 1,
+    "pending": 1
+  },
+  "intents": [
+    {
+      "command_id": "example-1",
+      "raw_text": "스케줄러에 주간 모드 기능 만들어줘.",
+      "intent_type": "create_feature",
+      "target_module": "Scheduler",
+      "target_version": null,
+      "notes": "",
+      "status": "pending"
+    }
+  ],
+  "plan_file": "C:\\A1-M2\\AutoSync\\generated\\AS_command_plan_v3_1.json"
+}

@@ -1,0 +1,29 @@
+{
+  "version": "1.4",
+  "scan_interval_seconds": 0,
+  "watch_paths": [
+    "../OmegaEngine",
+    "../Scheduler",
+    "../SafeGuard",
+    "../AutoSync"
+  ],
+  "include_extensions": [
+    ".py",
+    ".json",
+    ".txt"
+  ],
+  "exclude_dirs": [
+    "__pycache__",
+    ".git",
+    ".idea"
+  ],
+  "exclude_files": [
+    "AS_state_v1_4.json",
+    "AS_report_v1_4.json"
+  ],
+  "unused_file_patterns": [
+    "__pycache__",
+    ".pyc",
+    "requirements.txt"
+  ]
+}

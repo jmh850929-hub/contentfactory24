@@ -1,0 +1,33 @@
+[2025-12-01 20:50:08] [INFO] AutoSyncHybridLoop v1.0.0 시작 (LTS v4.0.0, dry_run=False)
+[2025-12-01 20:50:08] [LOOP] ----- Hybrid Loop #1 시작 -----
+[2025-12-01 20:50:08] [INFO] LTS 실행 (dry_run=False) 시작
+[2025-12-01 20:50:08] [INFO] LTS 실행 종료: state=GREEN, patched=8
+[2025-12-01 20:50:08] [LOOP] #1 결과: state=GREEN, patched_count=8
+[2025-12-01 20:50:08] [CORE] AutoSync Core(autosync_run) 실행 시작
+[2025-12-01 20:50:09] [CORE] AutoSync Core 실행 완료
+[2025-12-01 20:50:09] [LOOP] ----- Hybrid Loop #2 시작 -----
+[2025-12-01 20:50:09] [INFO] LTS 실행 (dry_run=False) 시작
+[2025-12-01 20:50:10] [INFO] LTS 실행 종료: state=GREEN, patched=8
+[2025-12-01 20:50:10] [LOOP] #2 결과: state=GREEN, patched_count=8
+[2025-12-01 20:50:10] [CORE] AutoSync Core(autosync_run) 실행 시작
+[2025-12-01 20:50:11] [CORE] AutoSync Core 실행 완료
+[2025-12-01 20:50:11] [LOOP] ----- Hybrid Loop #3 시작 -----
+[2025-12-01 20:50:11] [INFO] LTS 실행 (dry_run=False) 시작
+[2025-12-01 20:50:12] [INFO] LTS 실행 종료: state=GREEN, patched=8
+[2025-12-01 20:50:12] [LOOP] #3 결과: state=GREEN, patched_count=8
+[2025-12-01 20:50:12] [CORE] AutoSync Core(autosync_run) 실행 시작
+[2025-12-01 20:50:13] [CORE] AutoSync Core 실행 완료
+[2025-12-01 20:50:13] [LOOP] ----- Hybrid Loop #4 시작 -----
+[2025-12-01 20:50:13] [INFO] LTS 실행 (dry_run=False) 시작
+[2025-12-01 20:50:14] [INFO] LTS 실행 종료: state=GREEN, patched=8
+[2025-12-01 20:50:14] [LOOP] #4 결과: state=GREEN, patched_count=8
+[2025-12-01 20:50:14] [CORE] AutoSync Core(autosync_run) 실행 시작
+[2025-12-01 20:50:15] [CORE] AutoSync Core 실행 완료
+[2025-12-01 20:50:15] [LOOP] ----- Hybrid Loop #5 시작 -----
+[2025-12-01 20:50:15] [INFO] LTS 실행 (dry_run=False) 시작
+[2025-12-01 20:50:16] [INFO] LTS 실행 종료: state=GREEN, patched=8
+[2025-12-01 20:50:16] [LOOP] #5 결과: state=GREEN, patched_count=8
+[2025-12-01 20:50:16] [CORE] AutoSync Core(autosync_run) 실행 시작
+[2025-12-01 20:50:17] [CORE] AutoSync Core 실행 완료
+[2025-12-01 20:50:17] [STOP] max_loops(5) 도달 → 하이브리드 루프 종료
+[2025-12-01 20:50:17] [SUMMARY] Hybrid Loop 종료: loops=5, total_patched=40, last_state=GREEN

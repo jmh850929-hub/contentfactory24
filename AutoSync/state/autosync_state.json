@@ -1,0 +1,62 @@
+{
+  "last_run": "2025-12-01T20:50:16",
+  "last_state": "GREEN",
+  "last_results": [
+    {
+      "module": "VersionDocs",
+      "action": "PATCH",
+      "success": true,
+      "returncode": 0,
+      "message": "[VersionDocs v1.0] 문서 생성 완료\nJSON : C:\\A1-M2\\VersionDocs\\output\\json\\version_1.0.0.json\nExcel: C:\\A1-M2\\VersionDocs\\output\\excel\\version_history.xlsx\nPDF  : C:\\A1-M2\\VersionDocs\\output\\pdf\\version_repo... (생략)"
+    },
+    {
+      "module": "Scheduler",
+      "action": "PATCH",
+      "success": true,
+      "returncode": 0,
+      "message": "[2025-12-01 20:50:15] [INFO] 상업성 포스팅 생성 시작\n[2025-12-01 20:50:15] [OK] 상업성 포스팅 큐 생성: C:\\A1-M2\\Scheduler\\queue\\20251201_205015.json\n[2025-12-01 20:50:15] [INFO] 비상업성 랜덤 선택: reference\n[2025-12-01 20:50:1... (생략)"
+    },
+    {
+      "module": "OmegaEngine",
+      "action": "PATCH",
+      "success": true,
+      "returncode": 0,
+      "message": "[2025-12-01 20:50:15] [INFO] 처리할 큐 작업이 없습니다."
+    },
+    {
+      "module": "DeployBridge",
+      "action": "PATCH",
+      "success": true,
+      "returncode": 0,
+      "message": "[2025-12-01 20:50:15] [01-sangsangpiano] 배포 시작: C:\\A1-M2\\WebRack\\site-dist\\01-sangsangpiano → C:\\A1-M2\\DeployBridge\\out\\01-sangsangpiano\\20251201_205015\n[2025-12-01 20:50:15] [01-sangsangpiano] 배포 완료:... (생략)"
+    },
+    {
+      "module": "WebRack",
+      "action": "PATCH",
+      "success": true,
+      "returncode": 0,
+      "message": "[2025-12-01 20:50:15] [01-sangsangpiano] index.html 생성 완료: C:\\A1-M2\\WebRack\\site-dist\\01-sangsangpiano\\index.html\n[2025-12-01 20:50:15] [02-jay-gongbang] index.html 생성 완료: C:\\A1-M2\\WebRack\\site-dist\\0... (생략)"
+    },
+    {
+      "module": "ImageInference",
+      "action": "PATCH",
+      "success": true,
+      "returncode": 0,
+      "message": "[2025-12-01 20:50:15] [완료] 분석 결과 저장: C:\\A1-M2\\ImageInference\\output\\inference_result_20251201_205015.json"
+    },
+    {
+      "module": "MonitoringPanel",
+      "action": "PATCH",
+      "success": true,
+      "returncode": 0,
+      "message": "=== CAPS MonitoringPanel v1.0.0 ===\n생성 시각: 2025-12-01T20:50:15\n\n[모듈 상태]\n  - AutoSync     | cur=4.0.0    | tgt=4.0.0    | health=GREEN\n  - SafeGuard    | cur=1.3.0    | tgt=1.3.0    | health=GREEN\n  - ... (생략)"
+    },
+    {
+      "module": "LogCenter",
+      "action": "PATCH",
+      "success": true,
+      "returncode": 0,
+      "message": "[LogCenter v1.0.0] 통합 로그 생성 완료: C:\\A1-M2\\LogCenter\\logs\\merged_log_20251201.txt"
+    }
+  ]
+}

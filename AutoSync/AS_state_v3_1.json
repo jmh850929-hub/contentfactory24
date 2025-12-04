@@ -1,0 +1,12 @@
+{
+  "version": "3.1",
+  "last_run": "2025-11-30 20:06:25",
+  "command_count": 1,
+  "pending": 1,
+  "by_intent_type": {
+    "create_feature": 1
+  },
+  "by_module": {
+    "Scheduler": 1
+  }
+}

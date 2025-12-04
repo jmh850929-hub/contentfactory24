@@ -1,0 +1,11 @@
+{
+  "version": "3.5",
+  "last_run": "2025-11-30 20:15:07",
+  "snapshot_hash": "473dd86575575618f768ee4cd8cb0de6c7950e2380f419821d1d7d185ab3f135",
+  "intent_count": 1,
+  "patches": [],
+  "generated_files": [
+    "C:\\A1-M2\\AutoSync\\patches\\scheduler_new_feature_v3_5_stub.py"
+  ],
+  "patch_dir": "C:\\A1-M2\\AutoSync\\patches"
+}

@@ -1,0 +1,87 @@
+{
+  "caps_core_version": "1.0.0",
+  "serial_order": [
+    "AutoSync",
+    "SafeGuard",
+    "VersionDocs",
+    "Scheduler",
+    "OmegaEngine",
+    "DeployBridge",
+    "WebRack",
+    "ImageInference",
+    "MonitoringPanel",
+    "LogCenter"
+  ],
+  "items": [
+    {
+      "module": "VersionDocs",
+      "action": "PATCH",
+      "priority": 25,
+      "reason": "health_yellow",
+      "target_version": "1.0.0"
+    },
+    {
+      "module": "Scheduler",
+      "action": "PATCH",
+      "priority": 35,
+      "reason": "health_yellow",
+      "target_version": "2.1.0"
+    },
+    {
+      "module": "OmegaEngine",
+      "action": "PATCH",
+      "priority": 45,
+      "reason": "health_yellow",
+      "target_version": "3.0.0"
+    },
+    {
+      "module": "AutoSync",
+      "action": "CHECK_ONLY",
+      "priority": 50,
+      "reason": "ok_no_action",
+      "target_version": "4.0.0"
+    },
+    {
+      "module": "DeployBridge",
+      "action": "PATCH",
+      "priority": 50,
+      "reason": "health_red",
+      "target_version": "1.0.0"
+    },
+    {
+      "module": "SafeGuard",
+      "action": "CHECK_ONLY",
+      "priority": 60,
+      "reason": "ok_no_action",
+      "target_version": "1.3.0"
+    },
+    {
+      "module": "WebRack",
+      "action": "PATCH",
+      "priority": 67,
+      "reason": "version_mismatch",
+      "target_version": "1.1.0"
+    },
+    {
+      "module": "ImageInference",
+      "action": "PATCH",
+      "priority": 70,
+      "reason": "health_red",
+      "target_version": "1.0.0"
+    },
+    {
+      "module": "MonitoringPanel",
+      "action": "PATCH",
+      "priority": 85,
+      "reason": "health_yellow",
+      "target_version": "1.0.0"
+    },
+    {
+      "module": "LogCenter",
+      "action": "PATCH",
+      "priority": 95,
+      "reason": "health_yellow",
+      "target_version": "1.0.0"
+    }
+  ]
+}

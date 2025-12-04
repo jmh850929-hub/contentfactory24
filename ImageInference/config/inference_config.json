@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "description": "ImageInference v1.0 기본 설정 템플릿",
+  "auto_scan_dir": "C:\\A1-M2\\ImageInference\\input",
+  "brightness_low_threshold": 30,
+  "brightness_high_threshold": 220,
+  "min_width": 300,
+  "min_height": 300
+}

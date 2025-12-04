@@ -1,0 +1,26 @@
+{
+  "version": "1.4",
+  "generated_at": "2025-11-30 17:27:07",
+  "changes": {
+    "added": [],
+    "modified": [
+      "OmegaEngine/gpt_payload/OMG_학원_레슨_공간_한쪽_모습_–_01_상상피아노_피아노_학원_gpt_payload.json",
+      "OmegaEngine/gpt_payload/OMG_상상피아노_악보_정리_공간_–_실제_레슨_분위기_gpt_payload.json",
+      "OmegaEngine/gpt_payload/OMG_상상피아노_교실_풍경_–_악보_정리_공간_gpt_payload.json",
+      "OmegaEngine/gpt_payload/상상피아노_수업이_이루어지던_공간_–_실제_레슨_분위기_gpt_payload.json",
+      "Scheduler/SCH_status_light.json",
+      "OmegaEngine/gpt_payload/OMG_상상피아노_악보_정리_공간_–_오늘의_공간_기록_gpt_payload.json",
+      "OmegaEngine/gpt_payload/상상피아노_교실_풍경_–_교실_분위기_gpt_payload.json",
+      "Scheduler/SCH_plan_2025-11-30.json",
+      "OmegaEngine/gpt_payload/OMG_피아노_공간_기록_–_piano_lesson_–_2025-11-28_gpt_payload.json",
+      "OmegaEngine/gpt_payload/상상피아노_교실_풍경_–_연습실_한쪽_모습_gpt_payload.json",
+      "SafeGuard/SGD_state.json",
+      "OmegaEngine/gpt_payload/상상피아노_학원_연습_자리_–_실제_레슨_분위기_gpt_payload.json",
+      "SafeGuard/SGD_log.txt",
+      "OmegaEngine/gpt_payload/상상피아노_레슨_공간_이야기_–_피아노가_놓인_자리_gpt_payload.json",
+      "OmegaEngine/gpt_payload/OMG_상상피아노_악보_정리_공간_–_조용한_하루의_한_장면_gpt_payload.json"
+    ],
+    "deleted": []
+  },
+  "unused_candidates": []
+}

@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "description": "DeployBridge v1.0 기본 설정 템플릿",
+  "sites": {
+    "01-sangsangpiano": {
+      "src_dir": "C:\\A1-M2\\WebRack\\site-dist\\01-sangsangpiano",
+      "dst_root": "C:\\A1-M2\\DeployBridge\\out\\01-sangsangpiano"
+    },
+    "02-jay-gongbang": {
+      "src_dir": "C:\\A1-M2\\WebRack\\site-dist\\02-jay-gongbang",
+      "dst_root": "C:\\A1-M2\\DeployBridge\\out\\02-jay-gongbang"
+    },
+    "rack-random": {
+      "src_dir": "C:\\A1-M2\\WebRack\\site-dist\\rack-random",
+      "dst_root": "C:\\A1-M2\\DeployBridge\\out\\rack-random"
+    }
+  }
+}

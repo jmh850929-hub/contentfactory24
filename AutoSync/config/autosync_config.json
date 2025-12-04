@@ -1,0 +1,61 @@
+{
+  "version": "4.0",
+  "description": "AutoSync LTS v4.0 기본 설정",
+  "caps_core_plan": "C:\\A1-M2\\CAPSCore\\plan\\caps_core_plan.json",
+  "safeguard_script": "C:\\A1-M2\\SafeGuard\\SGD_safe_guard_lts_v1_0.py",
+  "modules": {
+    "VersionDocs": {
+      "script": "C:\\A1-M2\\VersionDocs\\VD_version_docs_v1_0.py",
+      "args": []
+    },
+    "Scheduler": {
+      "script": "C:\\A1-M2\\Scheduler\\SCH_scheduler_lts_v1_0.py",
+      "args": [
+        "--run"
+      ]
+    },
+    "OmegaEngine": {
+      "script": "C:\\A1-M2\\OmegaEngine\\OMG_omega_engine_v1_0.py",
+      "args": [
+        "--run-once"
+      ]
+    },
+    "DeployBridge": {
+      "script": "C:\\A1-M2\\DeployBridge\\DB_deploy_bridge_v1_0.py",
+      "args": [
+        "--site",
+        "01-sangsangpiano"
+      ]
+    },
+    "WebRack": {
+      "script": "C:\\A1-M2\\WebRack\\WR_webrack_v1_0.py",
+      "args": [
+        "--all"
+      ]
+    },
+    "ImageInference": {
+      "script": "C:\\A1-M2\\ImageInference\\II_image_inference_v1_0.py",
+      "args": [
+        "--auto"
+      ]
+    },
+    "LogCenter": {
+      "script": "C:\\A1-M2\\LogCenter\\LC_logcenter_v1_0.py",
+      "args": [
+        "--merge"
+      ]
+    },
+    "MonitoringPanel": {
+      "script": "C:\\A1-M2\\MonitoringPanel\\MP_monitoring_panel_v1_0.py",
+      "args": [
+        "--export"
+      ]
+    },
+    "SafeGuard": {
+      "script": "C:\\A1-M2\\SafeGuard\\SGD_safe_guard_lts_v1_0.py",
+      "args": [
+        "--export"
+      ]
+    }
+  }
+}

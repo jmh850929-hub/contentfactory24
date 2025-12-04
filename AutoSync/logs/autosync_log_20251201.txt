@@ -1,0 +1,238 @@
+[2025-12-01 16:47:59] [INFO] AutoSync LTS v4.0.0 실행 시작 (dry_run=False)
+[2025-12-01 16:47:59] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 16:47:59] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 16:47:59] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 16:47:59] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 16:47:59] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 16:47:59] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 16:47:59] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 16:47:59] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 16:47:59] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 16:47:59] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 16:47:59] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 16:47:59] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 16:47:59] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 16:47:59] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 16:47:59] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 16:47:59] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 16:47:59] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 16:48:00] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 16:48:00] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 16:48:00] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 16:48:00] [INFO] AutoSync LTS v4.0.0 실행 종료
+[2025-12-01 16:48:02] [INFO] AutoSync LTS v4.0.0 실행 시작 (dry_run=True)
+[2025-12-01 16:48:02] [DRY-RUN] PATCH 대상: VersionDocs (실행 안 함)
+[2025-12-01 16:48:02] [DRY-RUN] PATCH 대상: Scheduler (실행 안 함)
+[2025-12-01 16:48:02] [DRY-RUN] PATCH 대상: OmegaEngine (실행 안 함)
+[2025-12-01 16:48:02] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 16:48:02] [DRY-RUN] PATCH 대상: DeployBridge (실행 안 함)
+[2025-12-01 16:48:02] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 16:48:02] [DRY-RUN] PATCH 대상: WebRack (실행 안 함)
+[2025-12-01 16:48:02] [DRY-RUN] PATCH 대상: ImageInference (실행 안 함)
+[2025-12-01 16:48:02] [DRY-RUN] PATCH 대상: MonitoringPanel (실행 안 함)
+[2025-12-01 16:48:02] [DRY-RUN] PATCH 대상: LogCenter (실행 안 함)
+[2025-12-01 16:48:02] [INFO] AutoSync LTS v4.0.0 실행 종료
+[2025-12-01 20:04:43] [INFO] AutoSync LTS v4.1.0 실행 시작 (dry_run=False)
+[2025-12-01 20:04:43] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:04:43] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:04:43] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:04:43] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:04:43] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:04:43] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:04:43] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:04:43] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:04:43] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:04:43] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:04:43] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:04:43] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:04:43] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:04:43] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:04:43] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:04:43] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:04:43] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:04:43] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:04:43] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:04:43] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:04:43] [INFO] AutoSync LTS v4.1.0 실행 종료
+[2025-12-01 20:04:43] [INFO] SafeGuard GREEN → AutoSync Core(autosync_core.autosync_run) 실행
+[2025-12-01 20:04:43] [ERROR] AutoSync Core 실행 중 예외 발생: No module named 'structure_scanner'
+[2025-12-01 20:10:21] [INFO] AutoSync LTS v4.1.0 실행 시작 (dry_run=False)
+[2025-12-01 20:10:21] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:10:22] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:10:22] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:10:22] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:10:22] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:10:22] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:10:22] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:10:22] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:10:22] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:10:22] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:10:22] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:10:22] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:10:22] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:10:22] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:10:22] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:10:22] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:10:22] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:10:22] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:10:22] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:10:22] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:10:22] [INFO] AutoSync LTS v4.1.0 실행 종료
+[2025-12-01 20:10:22] [INFO] SafeGuard GREEN → AutoSync Core(autosync_core.autosync_run) 실행
+[2025-12-01 20:10:22] [ERROR] AutoSync Core 실행 중 예외 발생: No module named 'deploybridge_core'
+[2025-12-01 20:11:46] [INFO] AutoSync LTS v4.1.0 실행 시작 (dry_run=False)
+[2025-12-01 20:11:46] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:11:47] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:11:47] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:11:47] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:11:47] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:11:47] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:11:47] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:11:47] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:11:47] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:11:47] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:11:47] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:11:47] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:11:47] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:11:47] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:11:47] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:11:47] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:11:47] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:11:47] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:11:47] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:11:47] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:11:47] [INFO] AutoSync LTS v4.1.0 실행 종료
+[2025-12-01 20:11:47] [INFO] SafeGuard GREEN → AutoSync Core(autosync_core.autosync_run) 실행
+[2025-12-01 20:13:08] [INFO] AutoSync LTS v4.1.0 실행 시작 (dry_run=False)
+[2025-12-01 20:13:08] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:13:09] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:13:09] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:13:09] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:13:09] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:13:09] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:13:09] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:13:09] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:13:09] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:13:09] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:13:09] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:13:09] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:13:09] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:13:09] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:13:09] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:13:09] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:13:09] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:13:09] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:13:09] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:13:09] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:13:09] [INFO] AutoSync LTS v4.1.0 실행 종료
+[2025-12-01 20:13:09] [INFO] SafeGuard GREEN → AutoSync Core(autosync_core.autosync_run) 실행
+[2025-12-01 20:50:08] [INFO] AutoSync LTS v4.0.0 실행 시작 (dry_run=False)
+[2025-12-01 20:50:08] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:50:08] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:50:08] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:50:08] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:50:08] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:50:08] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:50:08] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:50:08] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:50:08] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:50:08] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:50:08] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:50:08] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:50:08] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:50:08] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:50:08] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:50:08] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:50:08] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:50:08] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:50:08] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:50:08] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:50:08] [INFO] AutoSync LTS v4.0.0 실행 종료
+[2025-12-01 20:50:09] [INFO] AutoSync LTS v4.0.0 실행 시작 (dry_run=False)
+[2025-12-01 20:50:09] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:50:10] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:50:10] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:50:10] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:50:10] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:50:10] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:50:10] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:50:10] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:50:10] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:50:10] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:50:10] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:50:10] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:50:10] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:50:10] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:50:10] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:50:10] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:50:10] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:50:10] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:50:10] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:50:10] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:50:10] [INFO] AutoSync LTS v4.0.0 실행 종료
+[2025-12-01 20:50:11] [INFO] AutoSync LTS v4.0.0 실행 시작 (dry_run=False)
+[2025-12-01 20:50:11] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:50:11] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:50:11] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:50:11] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:50:11] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:50:12] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:50:12] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:50:12] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:50:12] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:50:12] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:50:12] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:50:12] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:50:12] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:50:12] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:50:12] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:50:12] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:50:12] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:50:12] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:50:12] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:50:12] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:50:12] [INFO] AutoSync LTS v4.0.0 실행 종료
+[2025-12-01 20:50:13] [INFO] AutoSync LTS v4.0.0 실행 시작 (dry_run=False)
+[2025-12-01 20:50:13] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:50:13] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:50:13] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:50:13] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:50:13] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:50:13] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:50:13] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:50:13] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:50:13] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:50:13] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:50:13] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:50:13] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:50:13] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:50:13] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:50:13] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:50:14] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:50:14] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:50:14] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:50:14] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:50:14] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:50:14] [INFO] AutoSync LTS v4.0.0 실행 종료
+[2025-12-01 20:50:15] [INFO] AutoSync LTS v4.0.0 실행 시작 (dry_run=False)
+[2025-12-01 20:50:15] [INFO] 모듈 실행 시작: VersionDocs | action=PATCH | cmd=python C:\A1-M2\VersionDocs\VD_version_docs_v1_0.py
+[2025-12-01 20:50:15] [OK] 모듈 실행 성공: VersionDocs
+[2025-12-01 20:50:15] [INFO] 모듈 실행 시작: Scheduler | action=PATCH | cmd=python C:\A1-M2\Scheduler\SCH_scheduler_lts_v1_0.py --run
+[2025-12-01 20:50:15] [OK] 모듈 실행 성공: Scheduler
+[2025-12-01 20:50:15] [INFO] 모듈 실행 시작: OmegaEngine | action=PATCH | cmd=python C:\A1-M2\OmegaEngine\OMG_omega_engine_v1_0.py --run-once
+[2025-12-01 20:50:15] [OK] 모듈 실행 성공: OmegaEngine
+[2025-12-01 20:50:15] [INFO] CHECK_ONLY → 모듈 실행 스킵: AutoSync
+[2025-12-01 20:50:15] [INFO] 모듈 실행 시작: DeployBridge | action=PATCH | cmd=python C:\A1-M2\DeployBridge\DB_deploy_bridge_v1_0.py --site 01-sangsangpiano
+[2025-12-01 20:50:15] [OK] 모듈 실행 성공: DeployBridge
+[2025-12-01 20:50:15] [INFO] CHECK_ONLY → 모듈 실행 스킵: SafeGuard
+[2025-12-01 20:50:15] [INFO] 모듈 실행 시작: WebRack | action=PATCH | cmd=python C:\A1-M2\WebRack\WR_webrack_v1_0.py --all
+[2025-12-01 20:50:15] [OK] 모듈 실행 성공: WebRack
+[2025-12-01 20:50:15] [INFO] 모듈 실행 시작: ImageInference | action=PATCH | cmd=python C:\A1-M2\ImageInference\II_image_inference_v1_0.py --auto
+[2025-12-01 20:50:15] [OK] 모듈 실행 성공: ImageInference
+[2025-12-01 20:50:15] [INFO] 모듈 실행 시작: MonitoringPanel | action=PATCH | cmd=python C:\A1-M2\MonitoringPanel\MP_monitoring_panel_v1_0.py --export
+[2025-12-01 20:50:15] [OK] 모듈 실행 성공: MonitoringPanel
+[2025-12-01 20:50:15] [INFO] 모듈 실행 시작: LogCenter | action=PATCH | cmd=python C:\A1-M2\LogCenter\LC_logcenter_v1_0.py --merge
+[2025-12-01 20:50:15] [OK] 모듈 실행 성공: LogCenter
+[2025-12-01 20:50:15] [INFO] SafeGuard LTS 최종 검사 실행: python C:\A1-M2\SafeGuard\SGD_safe_guard_lts_v1_0.py --check
+[2025-12-01 20:50:16] [RESULT] SafeGuard 최종 상태: GREEN
+[2025-12-01 20:50:16] [INFO] AutoSync LTS v4.0.0 실행 종료

@@ -1,0 +1,112 @@
+{
+  "version": "3.0",
+  "generated_at": "2025-11-30 19:57:17",
+  "source_state_version": "2.5",
+  "summary": {
+    "total_files": 89,
+    "scanned_paths": [
+      "C:\\A1-M2\\OmegaEngine",
+      "C:\\A1-M2\\Scheduler",
+      "C:\\A1-M2\\SafeGuard",
+      "C:\\A1-M2\\AutoSync"
+    ],
+    "duration_seconds": 0.011
+  },
+  "changes": {
+    "added": [
+      "AutoSync/AS_autosync_v3_0.py",
+      "AutoSync/AS_evolver_v3_0.py",
+      "AutoSync/AS_report_v2_5.json",
+      "AutoSync/AS_state_v2_5.json",
+      "AutoSync/README_AutoSync_v3_0.txt"
+    ],
+    "modified": [
+      "SafeGuard/SGD_state.json"
+    ],
+    "deleted": []
+  },
+  "auto_actions": [
+    {
+      "path": "C:\\A1-M2\\SafeGuard\\SGD_state.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_report_v2_5.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_state_v2_5.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    }
+  ],
+  "warnings": [],
+  "risk_score": 0,
+  "integrity": {
+    "risk_score": 0,
+    "missing_files": []
+  },
+  "proposals": [
+    {
+      "id": "omegaengine_selfcheck",
+      "module": "OmegaEngine",
+      "level": "INFO",
+      "title": "OmegaEngine 모듈용 Self-Check 스텁 생성",
+      "description": "OmegaEngine 모듈에 대해 기본적인 구조/설정 점검을 수행할 수 있는 self-check 스텁 코드를 generated/omegaengine_selfcheck_stub_v3_0.py 에 생성했습니다. 필요 시 내용을 채워서 사용하면 됩니다.",
+      "suggested_actions": [
+        "generated/omegaengine_selfcheck_stub_v3_0.py 내용을 검토하고 필요한 검사를 구현한다.",
+        "OmegaEngine 폴더로 옮겨서 스케줄러/테스트 스크립트에서 호출하도록 연결한다."
+      ]
+    },
+    {
+      "id": "scheduler_selfcheck",
+      "module": "Scheduler",
+      "level": "INFO",
+      "title": "Scheduler 모듈용 Self-Check 스텁 생성",
+      "description": "Scheduler 모듈에 대해 기본적인 구조/설정 점검을 수행할 수 있는 self-check 스텁 코드를 generated/scheduler_selfcheck_stub_v3_0.py 에 생성했습니다. 필요 시 내용을 채워서 사용하면 됩니다.",
+      "suggested_actions": [
+        "generated/scheduler_selfcheck_stub_v3_0.py 내용을 검토하고 필요한 검사를 구현한다.",
+        "Scheduler 폴더로 옮겨서 스케줄러/테스트 스크립트에서 호출하도록 연결한다."
+      ]
+    },
+    {
+      "id": "safeguard_selfcheck",
+      "module": "SafeGuard",
+      "level": "INFO",
+      "title": "SafeGuard 모듈용 Self-Check 스텁 생성",
+      "description": "SafeGuard 모듈에 대해 기본적인 구조/설정 점검을 수행할 수 있는 self-check 스텁 코드를 generated/safeguard_selfcheck_stub_v3_0.py 에 생성했습니다. 필요 시 내용을 채워서 사용하면 됩니다.",
+      "suggested_actions": [
+        "generated/safeguard_selfcheck_stub_v3_0.py 내용을 검토하고 필요한 검사를 구현한다.",
+        "SafeGuard 폴더로 옮겨서 스케줄러/테스트 스크립트에서 호출하도록 연결한다."
+      ]
+    },
+    {
+      "id": "autosync_selfcheck",
+      "module": "AutoSync",
+      "level": "INFO",
+      "title": "AutoSync 모듈용 Self-Check 스텁 생성",
+      "description": "AutoSync 모듈에 대해 기본적인 구조/설정 점검을 수행할 수 있는 self-check 스텁 코드를 generated/autosync_selfcheck_stub_v3_0.py 에 생성했습니다. 필요 시 내용을 채워서 사용하면 됩니다.",
+      "suggested_actions": [
+        "generated/autosync_selfcheck_stub_v3_0.py 내용을 검토하고 필요한 검사를 구현한다.",
+        "AutoSync 폴더로 옮겨서 스케줄러/테스트 스크립트에서 호출하도록 연결한다."
+      ]
+    },
+    {
+      "id": "snapshot_summary",
+      "module": "GLOBAL",
+      "level": "INFO",
+      "title": "현재 CAPS 스냅샷 요약",
+      "description": "현재 CAPS 전체 파일 수는 89 개입니다.",
+      "suggested_actions": []
+    }
+  ],
+  "proposals_generated_files": [
+    "C:\\A1-M2\\AutoSync\\generated\\omegaengine_selfcheck_stub_v3_0.py",
+    "C:\\A1-M2\\AutoSync\\generated\\scheduler_selfcheck_stub_v3_0.py",
+    "C:\\A1-M2\\AutoSync\\generated\\safeguard_selfcheck_stub_v3_0.py",
+    "C:\\A1-M2\\AutoSync\\generated\\autosync_selfcheck_stub_v3_0.py",
+    "C:\\A1-M2\\AutoSync\\generated\\AS_proposals_v3_0.json"
+  ]
+}

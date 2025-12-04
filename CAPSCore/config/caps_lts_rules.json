@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "description": "Default LTS rules for CAPS Core v1.0",
+  "serial_pipeline": [
+    "AutoSync",
+    "SafeGuard",
+    "VersionDocs",
+    "Scheduler",
+    "OmegaEngine",
+    "DeployBridge",
+    "WebRack",
+    "ImageInference",
+    "MonitoringPanel",
+    "LogCenter"
+  ],
+  "safe_state_required": true,
+  "test_decoupling": true
+}

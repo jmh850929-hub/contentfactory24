@@ -1,0 +1,427 @@
+{
+  "version": "3.2",
+  "last_scan": "2025-11-30 20:10:24",
+  "file_count": 95,
+  "snapshot_hash": "748724a7ad56759706ea90f8a00cb2306bb6ff5dc0f4719a9931204a58379a1a",
+  "auto_actions": [
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_commands_v3_1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_report_v2_5.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_report_v3_0.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_report_v3_1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_state_v2_5.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_state_v3_0.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_state_v3_1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_sync_rules_v1_4.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\AS_sync_rules_v1_5.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\generated\\AS_command_plan_v3_1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\AutoSync\\generated\\AS_proposals_v3_0.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\OMG_flavor_spec_v25_1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\OMG_input_schema_v25_1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\OMG_output_schema_v25_1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\OMG_pre_template_v26.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\OMG_prompt_gpt_v1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\OMG_prompt_layer_v1.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\OMG_version.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\OMG_상상피아노_교실_풍경_–_악보_정리_공간_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\OMG_상상피아노_악보_정리_공간_–_실제_레슨_분위기_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\OMG_상상피아노_악보_정리_공간_–_오늘의_공간_기록_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\OMG_상상피아노_악보_정리_공간_–_조용한_하루의_한_장면_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\OMG_피아노_공간_기록_–_piano_lesson_–_2025-11-28_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\OMG_학원_레슨_공간_한쪽_모습_–_01_상상피아노_피아노_학원_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\상상피아노_교실_풍경_–_교실_분위기_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\상상피아노_교실_풍경_–_연습실_한쪽_모습_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\상상피아노_레슨_공간_이야기_–_피아노가_놓인_자리_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\상상피아노_수업이_이루어지던_공간_–_실제_레슨_분위기_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\final_output\\상상피아노_학원_연습_자리_–_실제_레슨_분위기_final_v27.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\flavors\\OMG_piano_info.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\flavors\\OMG_piano_lesson.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\OMG_상상피아노_교실_풍경_–_악보_정리_공간_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\OMG_상상피아노_악보_정리_공간_–_실제_레슨_분위기_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\OMG_상상피아노_악보_정리_공간_–_오늘의_공간_기록_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\OMG_상상피아노_악보_정리_공간_–_조용한_하루의_한_장면_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\OMG_피아노_공간_기록_–_piano_lesson_–_2025-11-28_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\OMG_학원_레슨_공간_한쪽_모습_–_01_상상피아노_피아노_학원_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\상상피아노_교실_풍경_–_교실_분위기_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\상상피아노_교실_풍경_–_연습실_한쪽_모습_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\상상피아노_레슨_공간_이야기_–_피아노가_놓인_자리_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\상상피아노_수업이_이루어지던_공간_–_실제_레슨_분위기_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\gpt_payload\\상상피아노_학원_연습_자리_–_실제_레슨_분위기_gpt_payload.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\OMG_상상피아노_교실_풍경_–_악보_정리_공간.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\OMG_상상피아노_악보_정리_공간_–_실제_레슨_분위기.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\OMG_상상피아노_악보_정리_공간_–_오늘의_공간_기록.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\OMG_상상피아노_악보_정리_공간_–_조용한_하루의_한_장면.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\OMG_피아노_공간_기록_–_piano_lesson_–_2025-11-28.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\OMG_학원_레슨_공간_한쪽_모습_–_01_상상피아노_피아노_학원.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\상상피아노_교실_풍경_–_교실_분위기.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\상상피아노_교실_풍경_–_연습실_한쪽_모습.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\상상피아노_레슨_공간_이야기_–_피아노가_놓인_자리.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\상상피아노_수업이_이루어지던_공간_–_실제_레슨_분위기.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\OmegaEngine\\output\\상상피아노_학원_연습_자리_–_실제_레슨_분위기.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\SafeGuard\\SGD_config.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\SafeGuard\\SGD_state.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\Scheduler\\SCH_plan_2025-11-30.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\Scheduler\\SCH_settings.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    },
+    {
+      "path": "C:\\A1-M2\\Scheduler\\SCH_status_light.json",
+      "action": "validate_json",
+      "detail": "JSON parsed successfully"
+    }
+  ],
+  "heal_actions": {
+    "fixed": [
+      "JSON_FIELDS_FIXED:SGD_state.json",
+      "JSON_FIELDS_FIXED:SCH_settings.json"
+    ],
+    "warnings": []
+  },
+  "issues": [
+    "MISSING_FILES:['AutoSync/AS_autosync_v2_0.py']"
+  ],
+  "risk_score": 2,
+  "integrity": {
+    "risk_score": 2,
+    "missing_files": [
+      "AutoSync/AS_autosync_v2_0.py"
+    ]
+  },
+  "command_intents": [
+    {
+      "command_id": "example-1",
+      "raw_text": "스케줄러에 주간 모드 기능 만들어줘.",
+      "intent_type": "create_feature",
+      "target_module": "Scheduler",
+      "target_version": null,
+      "notes": "",
+      "status": "pending"
+    }
+  ],
+  "changes": {
+    "added": [
+      "AutoSync/AS_autosync_v3_0.py",
+      "AutoSync/AS_autosync_v3_1.py",
+      "AutoSync/AS_autosync_v3_2.py",
+      "AutoSync/AS_command_intent_v3_1.py",
+      "AutoSync/AS_commands_v3_1.json",
+      "AutoSync/AS_evolver_v3_0.py",
+      "AutoSync/AS_healer_v3_2.py",
+      "AutoSync/AS_integrity_v2_5.py",
+      "AutoSync/AS_processor_v2_0.py",
+      "AutoSync/AS_report_v2_0.json",
+      "AutoSync/AS_report_v2_5.json",
+      "AutoSync/AS_report_v3_0.json",
+      "AutoSync/AS_report_v3_1.json",
+      "AutoSync/AS_state_v2_0.json",
+      "AutoSync/AS_state_v2_5.json",
+      "AutoSync/AS_state_v3_0.json",
+      "AutoSync/AS_state_v3_1.json",
+      "AutoSync/AS_sync_rules_v1_4.json",
+      "AutoSync/AS_sync_rules_v1_5.json",
+      "AutoSync/AS_watcher_v1_4.py",
+      "AutoSync/AS_watcher_v1_5.py",
+      "AutoSync/generated/AS_command_plan_v3_1.json",
+      "AutoSync/generated/AS_proposals_v3_0.json",
+      "AutoSync/generated/autosync_selfcheck_stub_v3_0.py",
+      "AutoSync/generated/omegaengine_selfcheck_stub_v3_0.py",
+      "AutoSync/generated/safeguard_selfcheck_stub_v3_0.py",
+      "AutoSync/generated/scheduler_selfcheck_stub_v3_0.py",
+      "OmegaEngine/GPT_response_parser_v1.py",
+      "OmegaEngine/GPT_retry_recovery_v1.py",
+      "OmegaEngine/OMG_engine_gpt_v27.py",
+      "OmegaEngine/OMG_flavor_spec_v25_1.json",
+      "OmegaEngine/OMG_image_processor.py",
+      "OmegaEngine/OMG_input_schema_v25_1.json",
+      "OmegaEngine/OMG_json_formatter.py",
+      "OmegaEngine/OMG_main_engine_static_v26.py",
+      "OmegaEngine/OMG_output_schema_v25_1.json",
+      "OmegaEngine/OMG_pre_template_v26.json",
+      "OmegaEngine/OMG_prompt_gpt_v1.json",
+      "OmegaEngine/OMG_prompt_layer_v1.json",
+      "OmegaEngine/OMG_scanner.py",
+      "OmegaEngine/OMG_text_builder_struct_v25.py",
+      "OmegaEngine/OMG_title_builder.py",
+      "OmegaEngine/OMG_validator_v25_1.py",
+      "OmegaEngine/OMG_version.json",
+      "OmegaEngine/README_OmegaEngine_v2_6.txt",
+      "OmegaEngine/final_output/OMG_상상피아노_교실_풍경_–_악보_정리_공간_final_v27.json",
+      "OmegaEngine/final_output/OMG_상상피아노_악보_정리_공간_–_실제_레슨_분위기_final_v27.json",
+      "OmegaEngine/final_output/OMG_상상피아노_악보_정리_공간_–_오늘의_공간_기록_final_v27.json",
+      "OmegaEngine/final_output/OMG_상상피아노_악보_정리_공간_–_조용한_하루의_한_장면_final_v27.json",
+      "OmegaEngine/final_output/OMG_피아노_공간_기록_–_piano_lesson_–_2025-11-28_final_v27.json",
+      "OmegaEngine/final_output/OMG_학원_레슨_공간_한쪽_모습_–_01_상상피아노_피아노_학원_final_v27.json",
+      "OmegaEngine/final_output/상상피아노_교실_풍경_–_교실_분위기_final_v27.json",
+      "OmegaEngine/final_output/상상피아노_교실_풍경_–_연습실_한쪽_모습_final_v27.json",
+      "OmegaEngine/final_output/상상피아노_레슨_공간_이야기_–_피아노가_놓인_자리_final_v27.json",
+      "OmegaEngine/final_output/상상피아노_수업이_이루어지던_공간_–_실제_레슨_분위기_final_v27.json",
+      "OmegaEngine/final_output/상상피아노_학원_연습_자리_–_실제_레슨_분위기_final_v27.json",
+      "OmegaEngine/flavors/OMG_piano_info.json",
+      "OmegaEngine/flavors/OMG_piano_lesson.json",
+      "OmegaEngine/gpt_payload/OMG_상상피아노_교실_풍경_–_악보_정리_공간_gpt_payload.json",
+      "OmegaEngine/gpt_payload/OMG_상상피아노_악보_정리_공간_–_실제_레슨_분위기_gpt_payload.json",
+      "OmegaEngine/gpt_payload/OMG_상상피아노_악보_정리_공간_–_오늘의_공간_기록_gpt_payload.json",
+      "OmegaEngine/gpt_payload/OMG_상상피아노_악보_정리_공간_–_조용한_하루의_한_장면_gpt_payload.json",
+      "OmegaEngine/gpt_payload/OMG_피아노_공간_기록_–_piano_lesson_–_2025-11-28_gpt_payload.json",
+      "OmegaEngine/gpt_payload/OMG_학원_레슨_공간_한쪽_모습_–_01_상상피아노_피아노_학원_gpt_payload.json",
+      "OmegaEngine/gpt_payload/상상피아노_교실_풍경_–_교실_분위기_gpt_payload.json",
+      "OmegaEngine/gpt_payload/상상피아노_교실_풍경_–_연습실_한쪽_모습_gpt_payload.json",
+      "OmegaEngine/gpt_payload/상상피아노_레슨_공간_이야기_–_피아노가_놓인_자리_gpt_payload.json",
+      "OmegaEngine/gpt_payload/상상피아노_수업이_이루어지던_공간_–_실제_레슨_분위기_gpt_payload.json",
+      "OmegaEngine/gpt_payload/상상피아노_학원_연습_자리_–_실제_레슨_분위기_gpt_payload.json",
+      "OmegaEngine/output/OMG_content_queue.jsonl.txt",
+      "OmegaEngine/output/OMG_상상피아노_교실_풍경_–_악보_정리_공간.json",
+      "OmegaEngine/output/OMG_상상피아노_악보_정리_공간_–_실제_레슨_분위기.json",
+      "OmegaEngine/output/OMG_상상피아노_악보_정리_공간_–_오늘의_공간_기록.json",
+      "OmegaEngine/output/OMG_상상피아노_악보_정리_공간_–_조용한_하루의_한_장면.json",
+      "OmegaEngine/output/OMG_피아노_공간_기록_–_piano_lesson_–_2025-11-28.json",
+      "OmegaEngine/output/OMG_학원_레슨_공간_한쪽_모습_–_01_상상피아노_피아노_학원.json",
+      "OmegaEngine/output/상상피아노_교실_풍경_–_교실_분위기.json",
+      "OmegaEngine/output/상상피아노_교실_풍경_–_연습실_한쪽_모습.json",
+      "OmegaEngine/output/상상피아노_레슨_공간_이야기_–_피아노가_놓인_자리.json",
+      "OmegaEngine/output/상상피아노_수업이_이루어지던_공간_–_실제_레슨_분위기.json",
+      "OmegaEngine/output/상상피아노_학원_연습_자리_–_실제_레슨_분위기.json",
+      "SafeGuard/SGD_README_1_2.txt",
+      "SafeGuard/SGD_config.json",
+      "SafeGuard/SGD_log.txt",
+      "SafeGuard/SGD_safe_guard_v1_2.py",
+      "SafeGuard/SGD_safe_guard_v1_3.py",
+      "SafeGuard/SGD_state.json",
+      "Scheduler/SCH_README_v1_5.txt",
+      "Scheduler/SCH_plan_2025-11-30.json",
+      "Scheduler/SCH_scheduler_v1_5.py",
+      "Scheduler/SCH_scheduler_v1_6.py",
+      "Scheduler/SCH_scheduler_v1_7.py",
+      "Scheduler/SCH_scheduler_v1_7_1.py",
+      "Scheduler/SCH_settings.json",
+      "Scheduler/SCH_status_light.json"
+    ],
+    "modified": [],
+    "deleted": []
+  }
+}

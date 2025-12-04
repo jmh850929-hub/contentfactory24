@@ -1,0 +1,32 @@
+{
+  "version": "2.5",
+  "generated_at": "2025-11-30 19:38:37",
+  "summary": {
+    "total_files": 84,
+    "scanned_paths": [
+      "C:\\A1-M2\\OmegaEngine",
+      "C:\\A1-M2\\Scheduler",
+      "C:\\A1-M2\\SafeGuard",
+      "C:\\A1-M2\\AutoSync"
+    ],
+    "duration_seconds": 0.005
+  },
+  "changes": {
+    "added": [
+      "AutoSync/AS_autosync_v2_5.py",
+      "AutoSync/AS_integrity_v2_5.py",
+      "AutoSync/AS_report_v2_0.json",
+      "AutoSync/AS_state_v2_0.json",
+      "AutoSync/README_AutoSync_v2_5.txt"
+    ],
+    "modified": [],
+    "deleted": []
+  },
+  "auto_actions": [],
+  "warnings": [],
+  "risk_score": 0,
+  "integrity": {
+    "risk_score": 0,
+    "missing_files": []
+  }
+}
