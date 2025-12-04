@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "description": "WebRack v1.0 기본 사이트 설정 템플릿",
+  "sites": {
+    "01-sangsangpiano": {
+      "title": "상상피아노",
+      "description": "상상피아노 – 피아노 레슨 & 연습실",
+      "url": "https://01-sangsangpiano.content-factory.blog"
+    },
+    "02-jay-gongbang": {
+      "title": "제이공방",
+      "description": "제이공방 – 수공예 & 공방 체험",
+      "url": "https://02-jay-gongbang.content-factory.blog"
+    },
+    "rack-random": {
+      "title": "랜덤 인포 랙",
+      "description": "랜덤 비상업용 포스팅 WebRack",
+      "url": "https://rack-random.content-factory.blog"
+    }
+  }
+}
