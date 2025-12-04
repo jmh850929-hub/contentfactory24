@@ -1,0 +1,13 @@
+{
+  "safe_state": false,
+  "consecutive_failures": 0,
+  "last_status": "success",
+  "last_error": null,
+  "last_run_at": "2025-11-30 17:27:07",
+  "last_success_at": "2025-11-30 17:27:07",
+  "state": "OK",
+  "failures": 0,
+  "warnings": 0,
+  "autosync_risk": 0,
+  "status": "GREEN"
+}

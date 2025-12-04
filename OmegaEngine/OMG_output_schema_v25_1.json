@@ -1,0 +1,48 @@
+{
+  "version": "2.5.1",
+  "description": "OmegaEngine output JSON schema for v2.5.1.",
+  "required_fields": [
+    "flavor",
+    "title",
+    "intro",
+    "sections",
+    "summary"
+  ],
+  "field_specs": {
+    "flavor": {
+      "type": "string",
+      "description": "Flavor used for this post. Example: 'piano_info', 'piano_lesson'."
+    },
+    "title": {
+      "type": "string",
+      "description": "Final title of the blog post."
+    },
+    "intro": {
+      "type": "array",
+      "items": "string",
+      "description": "Introductory paragraphs. 1~3 items recommended."
+    },
+    "sections": {
+      "type": "array",
+      "description": "Main body sections. Each section has heading + body.",
+      "items": {
+        "type": "object",
+        "required": ["index", "heading", "body"],
+        "properties": {
+          "index": { "type": "integer" },
+          "heading": { "type": "string" },
+          "body": { "type": "string" }
+        }
+      }
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short summary for meta/description field."
+    }
+  },
+  "rules": [
+    "sections.length MUST be >= 1.",
+    "section.index SHOULD start from 1 and increase by 1.",
+    "section_count in flavor file SHOULD match sections.length when present."
+  ]
+}

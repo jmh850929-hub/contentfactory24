@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "description": "SafeGuard LTS v1.0 기본 설정",
+  "caps_core_status": "C:\\A1-M2\\CAPSCore\\status\\modules_status.json",
+  "caps_core_plan": "C:\\A1-M2\\CAPSCore\\plan\\caps_core_plan.json",
+  "module_paths": {
+    "OmegaEngine": "C:\\A1-M2\\OmegaEngine",
+    "Scheduler": "C:\\A1-M2\\Scheduler",
+    "WebRack": "C:\\A1-M2\\WebRack",
+    "DeployBridge": "C:\\A1-M2\\DeployBridge",
+    "ImageInference": "C:\\A1-M2\\ImageInference",
+    "LogCenter": "C:\\A1-M2\\LogCenter",
+    "MonitoringPanel": "C:\\A1-M2\\MonitoringPanel"
+  }
+}

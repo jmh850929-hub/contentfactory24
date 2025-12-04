@@ -1,0 +1,11 @@
+{
+  "job_id": "20251201_205008",
+  "site_id": "01-sangsangpiano",
+  "post_type": "weekly_brief",
+  "title": "비상업성 랜덤 콘텐츠",
+  "payload": {
+    "intro": "기본 소개 문장",
+    "body": "기본 본문 내용 (AutoSync 패치 예정)",
+    "outro": "감사합니다."
+  }
+}

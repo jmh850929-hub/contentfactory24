@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "description": "OmegaEngine LTS v1.0 기본 설정",
+  "default_language": "ko",
+  "default_tone": "정보성",
+  "max_body_length": 1500
+}

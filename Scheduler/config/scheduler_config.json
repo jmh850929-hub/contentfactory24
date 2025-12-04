@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "description": "Scheduler LTS v1.0 기본 설정",
+  "site_id": "01-sangsangpiano",
+  "commercial_title": "상업성 홍보 포스팅",
+  "commercial_intro": "상업성 콘텐츠 기본 소개입니다.",
+  "commercial_body": "상업성 콘텐츠 본문입니다.",
+  "commercial_outro": "문의는 언제나 환영합니다.",
+  "random_post_title": "비상업성 랜덤 콘텐츠",
+  "default_intro": "기본 소개 문장",
+  "default_body": "기본 본문 내용 (AutoSync 패치 예정)",
+  "default_outro": "감사합니다."
+}

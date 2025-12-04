@@ -1,0 +1,54 @@
+{
+  "version": "2.5.1",
+  "description": "OmegaEngine input queue schema for v2.5.1. One JSON object per line in OMG_content_queue.jsonl.",
+  "required_fields": [
+    "flavor",
+    "image_group",
+    "post_type",
+    "meta",
+    "options"
+  ],
+  "field_specs": {
+    "flavor": {
+      "type": "string",
+      "description": "Name of flavor JSON to use. Example: 'piano_info', 'piano_lesson'."
+    },
+    "image_group": {
+      "type": "array",
+      "items": "string",
+      "description": "List of image file paths or IDs used for this post."
+    },
+    "post_type": {
+      "type": "string",
+      "description": "Logical type of post. Example: 'lesson_space', 'piano_info', 'daily_record'."
+    },
+    "meta": {
+      "type": "object",
+      "description": "Additional metadata for the post.",
+      "properties": {
+        "client_code": { "type": "string" },
+        "location": { "type": "string" },
+        "shoot_date": { "type": "string" },
+        "tags": {
+          "type": "array",
+          "items": "string"
+        }
+      }
+    },
+    "options": {
+      "type": "object",
+      "description": "Generation options and randomization seeds.",
+      "properties": {
+        "style": { "type": "string" },
+        "tone": { "type": "string" },
+        "length": { "type": "string" },
+        "random_seed": { "type": "integer" }
+      }
+    }
+  },
+  "notes": [
+    "Each line in OMG_content_queue.jsonl MUST be a valid JSON object.",
+    "All required_fields must exist in every object.",
+    "Extra fields are allowed but ignored by the validator."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": "2.6",
+  "lang": "ko",
+  "meta": {
+    "flavor": "piano_lesson",
+    "title": "학원 레슨 공간 한쪽 모습 – 01_상상피아노 피아노 학원",
+    "section_count": 1,
+    "source_file": "OMG_학원_레슨_공간_한쪽_모습_–_01_상상피아노_피아노_학원.json",
+    "generated_at": "2025-11-30 17:27:07"
+  },
+  "system_prompt": "당신은 지역 가게와 교육 기관의 블로그 글을 다듬는 전문 에디터입니다. 사용자가 제공하는 초안(draft_content)을 기반으로, 문장을 자연스럽게 정리하고, 너무 과장되거나 광고성인 표현은 줄이고, 신뢰감 있는 정보성 글로 다듬어 주세요.",
+  "user_prompt_template": "아래의 초안 내용을 기반으로, {client_name}에 대한 블로그 글을 자연스럽고 읽기 편한 한국어로 정리해 주세요.\\n\\n- 불필요한 반복은 줄이고, 흐름이 자연스럽게 이어지도록 문단을 정리합니다.\\n- 학원/가게의 실제 분위기가 잘 느껴지도록 공간 묘사는 살려 주세요.\\n- 너무 공격적인 판매 멘트는 자제하고, '안내' 중심의 톤을 유지해 주세요.\\n- 제목은 지나치게 자극적이지 않게 정리해 주세요.",
+  "style": {
+    "tone": "부드럽고 친절한 정보형",
+    "target_audience": "지역에 거주하는 일반 고객 및 학부모",
+    "formality": "반말과 존댓말 사이의 자연스러운 안내 톤"
+  },
+  "draft_content": "학원 레슨 공간 한쪽 모습 – 01_상상피아노 피아노 학원\n\n<h2>학원 레슨 공간 한쪽 모습 – 01_상상피아노 피아노 학원</h2>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821186_900-12.jpg\" style=\"max-width:95%; height:auto;\" alt=\"대표 이미지\"></p>\n<p>평소 수업 전후에 보게 되는 학원 피아노 주변의 모습을 조용하게 촬영했습니다.</p>\n<p>아래 사진들은 평소 학원에서 피아노 레슨이 이루어지던 모습을 담은 것입니다.</p>\n<h3>피아노가 놓인 자리</h3>\n<p>피아노를 기준으로 주변이 정리된 모습이라 언제든 연습을 시작할 수 있는 안정된 환경입니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821186_900-12.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 1\"></p>\n<h3>교실의 다른 각도</h3>\n<p>조명이 비추는 방향과 배치된 피아노의 모습이 조금씩 다르게 보입니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821251_900-12.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 2\"></p>\n<h3>레슨 공간의 분위기</h3>\n<p>악보와 의자, 소품들이 과하게 연출되지 않아 실제 레슨 때 보던 분위기가 그대로 전해집니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821306_900-12.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 3\"></p>\n<p>부담 없이 가볍게 살펴보시고, 나머지는 각자의 상상 속에서 자연스럽게 이어가 보셔도 좋겠습니다.</p>\n\n\n\n요약: 01_상상피아노 / 상상피아노_악기_악보 포스팅 결과 요약",
+  "summary": "01_상상피아노 / 상상피아노_악기_악보 포스팅 결과 요약"
+}

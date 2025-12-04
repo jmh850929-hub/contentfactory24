@@ -1,0 +1,11 @@
+{
+  "version": "2.6",
+  "title_prefix": "",
+  "section_join": "\n\n",
+  "summary_prefix": "\n\n요약: ",
+  "notes": [
+    "title → 섹션 → summary 순으로 draft_content를 구성한다.",
+    "섹션 heading 앞에는 '## '를 붙여 GPT가 구조를 인식하기 쉽게 한다.",
+    "draft_content는 GPT가 읽고 자연스럽게 수정보완할 '초안 텍스트' 역할을 한다."
+  ]
+}

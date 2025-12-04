@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "api_base": "https://api.openai.com/v1",
+  "api_key_env": "OPENAI_API_KEY",
+  "temperature": 0.5,
+  "max_tokens": 1200,
+  "mode": "mock_first",
+  "notes": [
+    "mode = 'mock_first': API키 없으면 mock 응답, 있으면 GPT 호출",
+    "mode = 'api_only': 반드시 API키 필요",
+    "mock 응답은 초안 텍스트를 그대로 감싸서 반환하므로 안전한 테스트 가능"
+  ]
+}

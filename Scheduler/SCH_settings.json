@@ -1,0 +1,32 @@
+{
+  "schedule": {
+    "enabled": true,
+    "random_time": true,
+    "time_range": [
+      "10:00",
+      "22:00"
+    ],
+    "weekdays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+    ],
+    "fixed_time": "15:00"
+  },
+  "autosync": {
+    "enabled": true
+  },
+  "pipeline": {
+    "enabled": true
+  },
+  "clients": {
+    "root": "..\\Clients"
+  },
+  "enabled": true,
+  "mode": "normal",
+  "random_seed": 42
+}

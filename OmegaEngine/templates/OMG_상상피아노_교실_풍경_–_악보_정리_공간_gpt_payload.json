@@ -1,0 +1,20 @@
+{
+  "version": "2.6",
+  "lang": "ko",
+  "meta": {
+    "flavor": "piano_lesson",
+    "title": "상상피아노 교실 풍경 – 악보 정리 공간",
+    "section_count": 1,
+    "source_file": "OMG_상상피아노_교실_풍경_–_악보_정리_공간.json",
+    "generated_at": "2025-11-30 17:27:07"
+  },
+  "system_prompt": "당신은 지역 가게와 교육 기관의 블로그 글을 다듬는 전문 에디터입니다. 사용자가 제공하는 초안(draft_content)을 기반으로, 문장을 자연스럽게 정리하고, 너무 과장되거나 광고성인 표현은 줄이고, 신뢰감 있는 정보성 글로 다듬어 주세요.",
+  "user_prompt_template": "아래의 초안 내용을 기반으로, {client_name}에 대한 블로그 글을 자연스럽고 읽기 편한 한국어로 정리해 주세요.\\n\\n- 불필요한 반복은 줄이고, 흐름이 자연스럽게 이어지도록 문단을 정리합니다.\\n- 학원/가게의 실제 분위기가 잘 느껴지도록 공간 묘사는 살려 주세요.\\n- 너무 공격적인 판매 멘트는 자제하고, '안내' 중심의 톤을 유지해 주세요.\\n- 제목은 지나치게 자극적이지 않게 정리해 주세요.",
+  "style": {
+    "tone": "부드럽고 친절한 정보형",
+    "target_audience": "지역에 거주하는 일반 고객 및 학부모",
+    "formality": "반말과 존댓말 사이의 자연스러운 안내 톤"
+  },
+  "draft_content": "상상피아노 교실 풍경 – 악보 정리 공간\n\n<h2>상상피아노 교실 풍경 – 악보 정리 공간</h2>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821186_900-17.jpg\" style=\"max-width:95%; height:auto;\" alt=\"대표 이미지\"></p>\n<p>아이들이 건반을 누르기 전, 학원의 공기가 가장 차분해지는 시간대의 모습을 정리했습니다.</p>\n<p>평소 선생님이 자리 잡고 레슨을 준비하던 피아노 앞 풍경을 부드럽게 담았습니다.</p>\n<h3>연습 분위기 한 컷씩</h3>\n<p>연습이 잠시 멈춘 순간의 고요한 분위기를 담았습니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821186_900-17.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 1\"></p>\n<h3>피아노가 놓인 자리</h3>\n<p>연습 중 손 움직임이 편안하도록 주변이 넓게 비워져 있는 점이 특징입니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821251_900-17.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 2\"></p>\n<h3>레슨 공간 살펴보기</h3>\n<p>아이들이 레슨을 받던 자리와 피아노의 배치가 안정적으로 유지된 공간입니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821306_900-17.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 3\"></p>\n<h3>교실의 다른 각도</h3>\n<p>피아노를 기준으로 반대편에서 보았을 때 교실 전체의 분위기가 조용하게 전달됩니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821385_900-17.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 4\"></p>\n<p>크게 꾸미지 않은 일상이지만, 사진을 통해 공간의 분위기를 자연스럽게 느끼셨길 바랍니다.</p>\n\n\n\n요약: 01_상상피아노 / 상상피아노_악기_악보 포스팅 결과",
+  "summary": "01_상상피아노 / 상상피아노_악기_악보 포스팅 결과"
+}

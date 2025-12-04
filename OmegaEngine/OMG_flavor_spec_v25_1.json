@@ -1,0 +1,56 @@
+{
+  "version": "2.5.1",
+  "description": "Common structure spec for OmegaEngine flavor JSON files.",
+  "required_fields": [
+    "intro",
+    "sections",
+    "notice",
+    "outro"
+  ],
+  "field_specs": {
+    "intro": {
+      "type": "array",
+      "items": "string",
+      "description": "Intro sentence candidates. Engine will randomly pick or sequence them."
+    },
+    "sections": {
+      "type": "object",
+      "description": "Section title -> list of sentence candidates.",
+      "additionalProperties": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    "notice": {
+      "type": "array",
+      "items": "string",
+      "description": "Short notice / 안내 문장 리스트."
+    },
+    "outro": {
+      "type": "array",
+      "items": "string",
+      "description": "Closing sentences for the end of the post."
+    }
+  },
+  "examples": {
+    "piano_info": {
+      "intro_len": 10,
+      "section_keys": [
+        "기초 연습 루틴",
+        "손가락 번호와 기본 자세",
+        "연습이 막힐 때 대처법",
+        "피아노 소리와 터치감 기본",
+        "악보 읽기 기초"
+      ]
+    },
+    "piano_lesson": {
+      "intro_len": 10,
+      "section_keys": [
+        "레슨 공간 살펴보기",
+        "피아노가 놓인 자리",
+        "교실의 다른 각도",
+        "연습 분위기 한 컷씩"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2025-11-30",
+  "created_at": "2025-11-30 17:27:07",
+  "state": "PENDING",
+  "jobs": [
+    {
+      "job_id": 1,
+      "client_id": "01_상상피아노",
+      "client_path": "C:\\A1-M2\\Clients\\01_상상피아노",
+      "run_at": "2025-11-30 15:43:00",
+      "status": "DONE",
+      "created_at": "2025-11-30 17:27:07",
+      "finished_at": "2025-11-30 17:27:08"
+    },
+    {
+      "job_id": 2,
+      "client_id": "02_제이공방",
+      "client_path": "C:\\A1-M2\\Clients\\02_제이공방",
+      "run_at": "2025-11-30 19:54:00",
+      "status": "PENDING",
+      "created_at": "2025-11-30 17:27:07"
+    }
+  ]
+}

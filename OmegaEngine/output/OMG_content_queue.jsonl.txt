@@ -1,0 +1,1 @@
+{"job_id": "01_sang", "flavor": "piano_lesson", "images_dir": "C:/CAPS_Clients/01_상상피아노", "client": "01_상상피아노"}

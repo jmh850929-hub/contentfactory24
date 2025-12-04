@@ -1,0 +1,7 @@
+{
+  "max_failures": 3,
+  "engine_cmd": ["python", "OMG_main_engine_static_v26.py"],
+  "engine_cwd": "C:\\A1-M2\\OmegaEngine",
+  "log_file": "SGD_log.txt",
+  "auto_resume": true
+}

@@ -1,0 +1,20 @@
+{
+  "version": "2.6",
+  "lang": "ko",
+  "meta": {
+    "flavor": "piano_lesson",
+    "title": "상상피아노 악보 정리 공간 – 오늘의 공간 기록",
+    "section_count": 1,
+    "source_file": "OMG_상상피아노_악보_정리_공간_–_오늘의_공간_기록.json",
+    "generated_at": "2025-11-30 17:27:07"
+  },
+  "system_prompt": "당신은 지역 가게와 교육 기관의 블로그 글을 다듬는 전문 에디터입니다. 사용자가 제공하는 초안(draft_content)을 기반으로, 문장을 자연스럽게 정리하고, 너무 과장되거나 광고성인 표현은 줄이고, 신뢰감 있는 정보성 글로 다듬어 주세요.",
+  "user_prompt_template": "아래의 초안 내용을 기반으로, {client_name}에 대한 블로그 글을 자연스럽고 읽기 편한 한국어로 정리해 주세요.\\n\\n- 불필요한 반복은 줄이고, 흐름이 자연스럽게 이어지도록 문단을 정리합니다.\\n- 학원/가게의 실제 분위기가 잘 느껴지도록 공간 묘사는 살려 주세요.\\n- 너무 공격적인 판매 멘트는 자제하고, '안내' 중심의 톤을 유지해 주세요.\\n- 제목은 지나치게 자극적이지 않게 정리해 주세요.",
+  "style": {
+    "tone": "부드럽고 친절한 정보형",
+    "target_audience": "지역에 거주하는 일반 고객 및 학부모",
+    "formality": "반말과 존댓말 사이의 자연스러운 안내 톤"
+  },
+  "draft_content": "상상피아노 악보 정리 공간 – 오늘의 공간 기록\n\n<h2>상상피아노 악보 정리 공간 – 오늘의 공간 기록</h2>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821186_900-14.jpg\" style=\"max-width:95%; height:auto;\" alt=\"대표 이미지\"></p>\n<p>하루의 시작과 끝을 함께했던 연습 공간의 모습을 자연스럽게 담았습니다.</p>\n<p>학원의 구조와 조도, 조용한 소리의 잔향을 사진에 최대한 담으려 했습니다.</p>\n<h3>연습 분위기 한 컷씩</h3>\n<p>교실에 퍼지는 잔향까지 느낄 수 있을 정도의 조용한 순간들입니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821186_900-14.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 1\"></p>\n<h3>피아노가 놓인 자리</h3>\n<p>교실 구조상 소리가 자연스럽게 퍼지는 자리라 레슨할 때 피드백 전달이 쉬웠습니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821251_900-14.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 2\"></p>\n<h3>레슨 공간 살펴보기</h3>\n<p>학생들이 오가기 편한 동선으로 구성되어 있어 실제 레슨 중에도 자연스럽게 움직일 수 있었습니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821306_900-14.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 3\"></p>\n<h3>교실의 다른 각도</h3>\n<p>다른 각도에서도 전체 동선이 잘 보이도록 구성된 연습 공간입니다.</p>\n<p style=\"text-align:center;\"><img src=\"https://cf01.kr/wp-content/uploads/2025/11/1761631821385_900-14.jpg\" style=\"max-width:95%; height:auto;\" alt=\"상세 이미지 4\"></p>\n<p>사진 속 남아 있는 조용함이 레슨의 여유를 전달하기를 바랍니다.</p>\n\n\n\n요약: 01_상상피아노 / 상상피아노_악기_악보 포스팅 결과",
+  "summary": "01_상상피아노 / 상상피아노_악기_악보 포스팅 결과"
+}
